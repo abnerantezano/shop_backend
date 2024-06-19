@@ -56,7 +56,9 @@ MIDDLEWARE = [
     "corsheaders.middleware.CorsMiddleware",
 ]
 
-CORS_ALLOW_ALL_ORIGINS = True
+CORS_ALLOW_ORIGINS = [
+    'https://lacasagamerproyectoweb.netlify.app'
+]
 
 ROOT_URLCONF = 'shop_backend.urls'
 
